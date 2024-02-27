@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>web speech API - demo</title>
+  </head>
+
+  <body>
+    <h1>points: <span class="points">0</span></h1>
+    <div class="question">
+    <h2>Question 1</h2>
+    <p>Wie is de koning van België?</p>
+    <h3>hints</h3>
+    <ul class="antwoorden">
+        <li>Bert</li>
+        <li>Karel</li>
+        <li>Philippe</li>
+    </ul>
+  </div>
+  <div class="question">
+    <h2>Question 2</h2>
+    <p>Wat is de hoofdstad van Frankrijk</p>
+    <h3>hints</h3>
+    <ul class="antwoorden">
+        <li>Madrid</li>
+        <li>Parijs</li>
+        <li>Milaan</li>
+    </ul>
+  </div>
+  <div class="question">
+    <h2>Question 3</h2>
+    <p>Hoeveel dagen zijn er in een jaar?</p>
+    <h3>hints</h3>
+    <ul class="antwoorden">
+        <li>400</li>
+        <li>356</li>
+        <li>365</li>
+    </ul>
+  </div>
+  <div>
+  <p>gegeven antwoorden: <span class="answ"><p id="output"></p></span></p>
+</div>
+
+    <button id="speakBtn">speak</button>
+    
+    <script defer src="main.js"></script>
+  </body>
+</html>

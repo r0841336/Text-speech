@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .question {
+    max-width: 800px;
+    margin: 20px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .points {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .hints {
+    margin-top: 10px;
+  }
+  
+  .antwoorden {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .answ {
+   text-align: left;
+  }
+  
+  .answ p {
+    margin: 0;
+  }
+  
+  .antwoorden li {
+    font-size: 16px;
+    color: #999;
+  }
+  
+  #output {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  #speakBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 40%;
+    left: auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
